@@ -49,8 +49,8 @@ function Hero() {
         <div className="eyebrow"><span className="eyebrow-line" /> HELLO, I'M</div>
         <h1>{profile.firstName}<br /><span>{profile.lastName}</span></h1>
         <div className="hero-role">IT Undergraduate <i /> Rajarata University of Sri Lanka</div>
-        <p className="hero-intro">A passionate IT undergraduate interested in AI, Computer Vision, Web Development and Mobile App Development. I enjoy building practical solutions that combine intelligent systems and modern web technologies.</p>
-        <div className="hero-tags"><span>AI & COMPUTER VISION</span><span>WEB DEVELOPMENT</span><span>MOBILE APPS</span></div>
+        <p className="hero-intro">A passionate IT undergraduate interested in Software Engineering, Artificial Intelligence, Computer Vision, Web Development, and Mobile App Development. I enjoy designing and building practical software solutions that combine intelligent systems, modern technologies, and creative problem-solving to address real-world challenges.</p>
+        <div className="hero-tags"><span>AI & COMPUTER VISION</span><span>SOFTWARE ENGINEERING</span><span>WEB DEVELOPMENT</span><span>MOBILE APPS</span></div>
         <div className="hero-actions">
           <a className="button button-primary" href="#projects">View My Work <Arrow /></a>
           <a className="button button-outline" href="#contact">Contact Me <Arrow diagonal /></a>
@@ -171,10 +171,10 @@ function AboutSection() {
           <h2>Curious about<br />how things <em>work.</em></h2>
         </div>
         <div className="about-copy">
-          <p className="about-lead">I like exploring how technology can turn complex ideas into useful, approachable experiences.</p>
-          <p>My interests sit across artificial intelligence, computer vision, web development and mobile applications. I enjoy learning by building, testing ideas and improving them through practical work.</p>
-          <p>I'm currently an IT undergraduate at <strong>Rajarata University of Sri Lanka</strong>, working on academic projects and developing my skills through hands-on experiments.</p>
-          <a className="inline-link" href={profile.github} target="_blank" rel="noreferrer">Explore my GitHub <Arrow diagonal /></a>
+            <p className="about-lead">I like exploring how technology can turn complex ideas into useful, approachable experiences.</p>
+            <p>My interests span Software Engineering, Artificial Intelligence, Computer Vision, Web Development and Mobile Application Development. I enjoy designing, developing and testing software solutions, learning new technologies and improving ideas through hands-on experimentation.</p>
+            <p>I'm currently an IT undergraduate at <strong>Rajarata University of Sri Lanka</strong>, working on academic projects and developing my technical and problem-solving skills through practical experience.</p>
+            <a className="inline-link" href={profile.github} target="_blank" rel="noreferrer">Explore my GitHub <Arrow diagonal /></a>
         </div>
       </div>
     </section>
